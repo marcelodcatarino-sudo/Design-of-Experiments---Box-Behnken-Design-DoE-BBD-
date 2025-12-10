@@ -5,7 +5,13 @@ This Jupyter notebook (DOE_BB.ipynb) is an interactive tool for generating a Box
 
 # Key Features
 - *Interactive BBD Generation*: Creates the design matrix using the bbdesign function from the pyDOE3 library.
-- *Factor Naming*: Allows the user to define the names of the factors (e.g., Temperature, Time, Solvent).
+- *Factor Naming*: Allows the user to define the number and names of the factors to include (e.g., Temperature, Time, Solvent).
+- *Response Naming*: Allows the user to define the number and names of the responses to include (e.g., Extraction yields).
 - *Scale Conversion*: Converts the coded design values (-1, 0, 1) into the real experimental values, based on the lower and upper limits provided by the user.
 - *Export*: Exports the final experimental design (with real values) to an Excel file (Box_Behnken_Design.xlsx).
 
+---
+
+Here is an example of a BBD that can be created:
+
+<img width="1047" height="769" alt="image" src="https://github.com/user-attachments/assets/7bb69a13-cb2f-4578-8a76-25301f48f206" />
